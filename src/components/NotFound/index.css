@@ -1,0 +1,38 @@
+/* Write your CSS here */
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Roboto';
+  box-sizing: border-box;
+}
+
+.not-found-img {
+  width: 300px;
+}
+
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.not-found-heading {
+  font-size: 25px;
+  color: #09315d;
+}
+
+.not-found-desc {
+  color: #616e7c;
+  width: 70%;
+  text-align: center;
+  font-size: 15px;
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  /* .not-found-img {
+    width: 30%;
+  } */
+}

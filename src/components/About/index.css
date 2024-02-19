@@ -1,0 +1,28 @@
+/* Write your CSS here */
+/* Write your CSS here */
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 85vh;
+}
+
+.lg-about-logo {
+  display: none;
+}
+
+.sm-about-logo {
+  width: 300px;
+}
+
+@media screen and (min-width: 768px) {
+  .lg-about-logo {
+    display: block;
+    width: 60%;
+  }
+  .sm-about-logo {
+    display: none;
+  }
+}
